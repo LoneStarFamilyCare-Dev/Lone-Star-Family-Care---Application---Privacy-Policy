@@ -3,34 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy — Lone Star Family Care</title>
+  <title>Privacy Policy <br> Lone Star Family Care App</title>
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      max-width: 720px;
-      margin: 40px auto;
-      padding: 0 20px;
-      color: #1a1a2e;
-      line-height: 1.7;
-      background: #ffffff;
+    :root {
+      --text: #111111;
+      --muted: #555555;
+      --rule: #dddddd;
+      --bg: #ffffff;
     }
-    h1 { color: #1a3a6b; }
-    h2 { color: #1a3a6b; margin-top: 32px; }
-    p, li { font-size: 15px; }
-    a { color: #1a3a6b; }
-    hr { border: none; border-top: 1px solid #e5e7eb; margin: 24px 0; }
-    strong { font-weight: 600; }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 760px;
+      margin: 32px auto;
+      padding: 0 24px 40px;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    h1, h2, p, ul, li {
+      color: var(--text);
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      line-height: 1.2;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0 0 18px;
+    }
+
+    h2 {
+      font-size: 1.45rem;
+      line-height: 1.25;
+      font-weight: 700;
+      margin: 34px 0 10px;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 8px 0 14px 22px;
+      padding: 0;
+    }
+
+    li {
+      font-size: 1rem;
+      margin: 0 0 8px;
+      padding-left: 2px;
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    a:hover {
+      opacity: 0.8;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid var(--rule);
+      margin: 18px 0 26px;
+    }
+
+    .meta {
+      font-size: 1rem;
+      color: var(--text);
+      margin-bottom: 0;
+    }
+
+    .meta strong {
+      font-weight: 600;
+    }
+
+    .contact p {
+      margin-bottom: 0;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        margin: 24px auto;
+        padding: 0 18px 32px;
+      }
+
+      h1 {
+        font-size: 1.9rem;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        margin-top: 28px;
+      }
+    }
   </style>
 </head>
 <body>
   <h1>Privacy Policy — Lone Star Family Care App</h1>
-  <p><strong>Effective Date:</strong> April 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> April 2026</p>
+  <p class="meta"><strong>Effective Date:</strong> April 2026 &nbsp;|&nbsp; <strong>Last Updated:</strong> April 2026</p>
   <hr>
 
   <h2>Overview</h2>
   <p>
-    This Privacy Policy describes how Lone Star Family Care handles information in connection with the Lone Star Family Care iOS application (the “App”).
-    Based on the current version of the App, Lone Star Family Care does not collect personal information through the App, does not require users to create an account, and does not store user-entered health-tool data on Lone Star Family Care servers.
+    This Privacy Policy describes how Lone Star Family Care handles information in connection with the Lone Star Family Care iOS application (the “App”). Based on the current version of the App, Lone Star Family Care does not collect personal information through the App, does not require users to create an account, and does not store user-entered health-tool data on Lone Star Family Care servers.
   </p>
 
   <h2>Information the App Does Not Collect</h2>
@@ -92,13 +184,15 @@
   </p>
 
   <h2>Contact</h2>
-  <p>
-    <strong>Lone Star Family Care</strong><br>
-    1329 W Walnut Hill Ln, Suite #120<br>
-    Irving, TX 75038<br>
-    (214) 216-3015<br>
-    <a href="mailto:info@lonestarfamilycare.com">info@lonestarfamilycare.com</a><br>
-    <a href="https://lonestarfamilycare.com" target="_blank" rel="noopener noreferrer">lonestarfamilycare.com</a>
-  </p>
+  <div class="contact">
+    <p>
+      <strong>Lone Star Family Care</strong><br>
+      1329 W Walnut Hill Ln, Suite #120<br>
+      Irving, TX 75038<br>
+      (214) 216-3015<br>
+      <a href="mailto:info@lonestarfamilycare.com">info@lonestarfamilycare.com</a><br>
+      <a href="https://lonestarfamilycare.com" target="_blank" rel="noopener noreferrer">lonestarfamilycare.com</a>
+    </p>
+  </div>
 </body>
 </html>
